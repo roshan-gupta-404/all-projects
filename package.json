@@ -1,8 +1,8 @@
 {
-  "homepage": "https://myusername.github.io/all-projects",
+  "homepage": "https://roshan-gupta-404.github.io/all-projects",
   "name": "all-projects",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",

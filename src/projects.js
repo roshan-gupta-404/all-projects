@@ -25,6 +25,19 @@ export const megaProjects = [
         demoLink: 'https://byte-codes-blog.vercel.app/',
         gitHub: 'https://github.com/roshan-gupta-404/byte-codes-blog',
     },
+    {
+        id: 'mega3',
+        title: "Test Shala",
+        desc: "Website where student can take test of various exams.",
+        tech: {
+            'Frontend Tech': 'ReactJs | Tailwind CSS | Redux',
+            //backend: 'Appwrite',
+            //Database: 'Appwrite Database',
+        },
+        imgUrl: 'https://i.postimg.cc/vZvCnRw7/testshala.png',
+        demoLink: 'https://testshala.vercel.app/',
+        gitHub: 'https://github.com/roshan-gupta-404/test-shala',
+    },
 ]
 export const miniProjects = [
     {

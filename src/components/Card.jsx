@@ -6,13 +6,13 @@ function Card({ project }) {
   console.log(keys);
   return (
     <>
-      <div className="relative flex bg-clip-border rounded-xl bg-white text-gray-700 shadow-md shadow-slate-500  w-full max-w-[64rem] flex-row hover:scale-105 duration-300">
-        <div className="relative w-2/5 m-0 overflow-hidden text-gray-700 bg-white rounded-r-none bg-clip-border rounded-xl shrink-0">
+      <div className="relative flex flex-col md:flex-row bg-clip-border rounded-xl bg-white text-gray-700 shadow-md shadow-slate-500  w-full max-w-[64rem] hover:scale-105 duration-300">
+        <div className="relative md:w-2/5 m-0 overflow-hidden text-gray-700 bg-white md:rounded-r-none bg-clip-border rounded-xl shrink-0">
           <img
             src={project.imgUrl}
             alt="card-image" className="object-cover w-full h-full" />
         </div>
-        <div className="px-6 py-2 w-3/5">
+        <div className="px-6 py-2 md:w-3/5">
           <h4 className="block mb-2 font-sans text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
             {project.title}
           </h4>
